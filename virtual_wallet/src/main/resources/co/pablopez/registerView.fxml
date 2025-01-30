@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.pablopez.Controller.RegisterController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bg_Register.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txt_name" layoutX="156.0" layoutY="166.0" prefHeight="25.0" prefWidth="228.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_password" layoutX="156.0" layoutY="311.0" prefHeight="25.0" prefWidth="228.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_idUser" layoutX="156.0" layoutY="237.0" prefHeight="25.0" prefWidth="228.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_passwordconfirmed" layoutX="156.0" layoutY="388.0" prefHeight="25.0" prefWidth="228.0" style="-fx-background-color: transparent;">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </TextField>
+      <Button layoutX="248.0" layoutY="496.0" mnemonicParsing="false" onAction="#btn_register" prefHeight="33.0" prefWidth="127.0" style="-fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #0a3472; -fx-background-color: #0a3472;" text="Registrar" textFill="#519aff">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="21.0" layoutY="-9.0" onMousePressed="#btn_back" text="&lt;" textFill="#024ba3">
+         <font>
+            <Font name="Berlin Sans FB" size="86.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
