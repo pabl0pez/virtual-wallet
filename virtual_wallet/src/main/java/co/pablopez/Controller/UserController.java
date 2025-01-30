@@ -114,16 +114,15 @@ public class UserController {
     }
 
     public void initializeTransactions() throws IOException{
-        txt_transactions.setText("");
         TransactionViewUtil transactionViewUtil = new TransactionViewUtil();
         LinkedList<Transaction> transactionsUser = transactionManager.loadTransaction(currentUser);
         String transactions = transactionViewUtil.getTransactions(transactionsUser);
         txt_transactions.setText(transactions);
+        transactionsUser.clear();
     }
 
     @FXML
     void initialize() throws IOException {
-        txt_transactions.setText("");
         initializeUpperInformation();
         initializeTransactions();
         txt_censure.setVisible(true);

@@ -70,13 +70,16 @@
             <Font name="Berlin Sans FB" size="15.0" />
          </font>
       </Button>
-      <TextField fx:id="txt_deposit" layoutX="743.0" layoutY="490.0" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: #deddbf; -fx-border-color: #8f735a; -fx-background-radius: 20; -fx-border-radius: 20;" />
+      <TextField fx:id="txt_deposit" layoutX="743.0" layoutY="490.0" prefHeight="25.0" prefWidth="144.0" style="-fx-background-color: #deddbf; -fx-border-color: #8f735a; -fx-background-radius: 20; -fx-border-radius: 20;">
+         <font>
+            <Font name="Berlin Sans FB" size="15.0" />
+         </font></TextField>
       <Label layoutX="205.0" layoutY="384.0" prefHeight="52.0" prefWidth="306.0" text="Transacciones recientes" textAlignment="CENTER" textFill="#014297">
          <font>
             <Font name="Berlin Sans FB" size="22.0" />
          </font>
       </Label>
-      <Label fx:id="txt_transactions" layoutX="67.0" layoutY="447.0" prefHeight="123.0" prefWidth="477.0" textFill="#004296" wrapText="true">
+      <Label fx:id="txt_transactions" layoutX="69.0" layoutY="438.0" prefHeight="147.0" prefWidth="477.0" style="-fx-border-color: #004296; -fx-border-radius: 20; -fx-background-radius: 20;" textFill="#004296" wrapText="true">
          <font>
             <Font name="Berlin Sans FB" size="16.0" />
          </font>

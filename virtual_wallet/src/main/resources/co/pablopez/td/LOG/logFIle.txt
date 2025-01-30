@@ -1,9 +1,9 @@
-ene 29, 2025 10:46:29 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+ene 29, 2025 11:19:07 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
 INFO: inicioSesion, Ingresó el usuario pablo
 
-ene 29, 2025 10:46:33 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+ene 29, 2025 11:19:13 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
 INFO: consultaSaldo, El usuario pablo consultó su saldo
 
-ene 29, 2025 10:46:35 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+ene 29, 2025 11:19:18 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
 INFO: cerrarSesionUsuario, El usuario pablo cerró sesión
 

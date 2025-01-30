@@ -36,7 +36,7 @@ public class TransactionViewUtil {
         String transaction = "";
         
         for(Transaction transactionText : transactions){
-            transaction += ("Se envió $" + transactionText.getAmount() + " a la cuenta " + transactionText.getDestinationUser() + "\n");
+            transaction += ("      Se envió $" + transactionText.getAmount() + " a la cuenta " + transactionText.getDestinationUser() + "\n");
         }
         return transaction;
     }
