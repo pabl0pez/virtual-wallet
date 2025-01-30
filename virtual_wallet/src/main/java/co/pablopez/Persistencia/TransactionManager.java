@@ -48,7 +48,7 @@ public class TransactionManager {
         UtilFile.guardarArchivo(pathTransactionsFile, transactionText.toString(), true);
     }
 
-    public LinkedList<Transaction> loadTransaction(User user) throws IOException {
+    public LinkedList<Transaction> loadTransaction(User currentUser) throws IOException {
 		pathTransactionsFile = getPropertiesPath("transactionPath");
 
 		ArrayList<String> content = UtilFile.leerArchivo(pathTransactionsFile);
@@ -58,13 +58,11 @@ public class TransactionManager {
 
 			if (split.length >= 2) {
 				Transaction transaction = new Transaction(split[0], split[1], Double.valueOf(split[2]), split[3]);
-				user.getTransactions().add(transaction);
+				currentUser.getTransactions().add(transaction);
 			} else {
 				System.err.println("Línea con datos incompletos: " + transactionText);
 			}
 		}
-		return user.getTransactions();
+		return currentUser.getTransactions();
 	} 
-
-
 }

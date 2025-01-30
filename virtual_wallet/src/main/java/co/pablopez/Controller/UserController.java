@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.LinkedList;
 import java.util.ResourceBundle;
+import java.util.stream.Collectors;
 
 import co.pablopez.App;
 import co.pablopez.Model.Transaction;
@@ -116,7 +117,13 @@ public class UserController {
     public void initializeTransactions() throws IOException{
         TransactionViewUtil transactionViewUtil = new TransactionViewUtil();
         LinkedList<Transaction> transactionsUser = transactionManager.loadTransaction(currentUser);
-        String transactions = transactionViewUtil.getTransactions(transactionsUser);
+        
+        LinkedList<Transaction> transactionsFiletered = transactionsUser.stream()
+            .filter(transaction -> transaction.getOriginUser().equals(currentUser.getNumberAccount()))
+            .collect(Collectors.toCollection(LinkedList::new));
+        
+            
+        String transactions = transactionViewUtil.getTransactions(transactionsFiletered);
         txt_transactions.setText(transactions);
         transactionsUser.clear();
     }

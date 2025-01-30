@@ -7,3 +7,60 @@ INFO: consultaSaldo, El usuario pablo consultó su saldo
 ene 29, 2025 11:19:18 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
 INFO: cerrarSesionUsuario, El usuario pablo cerró sesión
 
+ene 29, 2025 11:23:50 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: inicioSesion, Ingresó el usuario pablo
+
+ene 29, 2025 11:23:52 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: consultaSaldo, El usuario pablo consultó su saldo
+
+ene 29, 2025 11:23:53 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: cerrarSesionUsuario, El usuario pablo cerró sesión
+
+ene 29, 2025 11:25:38 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: inicioSesion, Ingresó el usuario pablo
+
+ene 29, 2025 11:25:40 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: consultaSaldo, El usuario pablo consultó su saldo
+
+ene 29, 2025 11:25:43 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: cerrarSesionUsuario, El usuario pablo cerró sesión
+
+ene 29, 2025 11:25:58 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: inicioSesion, Ingresó el usuario pablo
+
+ene 29, 2025 11:25:59 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: consultaSaldo, El usuario pablo consultó su saldo
+
+ene 29, 2025 11:26:17 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: consultaSaldo, El usuario pablo consultó su saldo
+
+ene 29, 2025 11:26:20 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: consultaSaldo, El usuario pablo consultó su saldo
+
+ene 29, 2025 11:26:27 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: consultaSaldo, El usuario pablo consultó su saldo
+
+ene 29, 2025 11:26:31 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: cerrarSesionUsuario, El usuario pablo cerró sesión
+
+ene 29, 2025 11:26:35 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: inicioSesion, Ingresó el usuario luisa
+
+ene 29, 2025 11:26:37 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: consultaSaldo, El usuario luisa consultó su saldo
+
+ene 29, 2025 11:27:04 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: cerrarSesionUsuario, El usuario luisa cerró sesión
+
+ene 29, 2025 11:30:53 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: inicioSesion, Ingresó el usuario pablo
+
+ene 29, 2025 11:30:56 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: cerrarSesionUsuario, El usuario pablo cerró sesión
+
+ene 29, 2025 11:31:00 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: inicioSesion, Ingresó el usuario luisa
+
+ene 29, 2025 11:31:06 P.M. co.pablopez.Persistencia.UtilFile guardarRegistroLog
+INFO: cerrarSesionUsuario, El usuario luisa cerró sesión
+

@@ -70,7 +70,6 @@ public class TransactionController {
                 transactionManager.saveTransaction(transaction);
                 wallet.addTransaction(transaction);
                 currentUser.getTransactions().add(transaction);
-                destinationUser.getTransactions().add(transaction);
 
                 //update destination user
                 Double newAmountDestination = destinationUser.getAvailableBalance() + amount;
