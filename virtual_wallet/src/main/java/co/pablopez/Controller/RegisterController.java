@@ -59,7 +59,7 @@ public class RegisterController {
             pabloWallet.addNewUser(newUser);
 
             //Create the log
-            UtilFile.guardarRegistroLog("Se registró el usuario " + idUser, 1, "registroUsuario", "src\\main\\resources\\co\\pablopez\\td\\LOG\\logFile.txt");
+            UtilFile.guardarRegistroLog("Se registró el usuario " + idUser, 1, "registroUsuario", "virtual_wallet\\src\\main\\resources\\co\\pablopez\\td\\LOG\\logFIle.txt");
 
             App.setRoot("loginView", "Pablo Wallet -Inicio de sesión-");
         }

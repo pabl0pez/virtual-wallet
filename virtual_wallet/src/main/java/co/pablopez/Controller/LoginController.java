@@ -44,12 +44,12 @@ public class LoginController {
             UtilFile.showAlert("ERROR!", "Rellene todos los espacios");
         }
         else if(loginView.verifyUserExist(username, password) == true){
-            UtilFile.guardarRegistroLog("Ingresó el usuario " + username, 1, "inicioSesion", "src\\main\\resources\\co\\pablopez\\td\\LOG\\logFile.txt");
+            UtilFile.guardarRegistroLog("Ingresó el usuario " + username, 1, "inicioSesion", "virtual_wallet\\src\\main\\resources\\co\\pablopez\\td\\LOG\\logFIle.txt");
             App.setRoot("userView", "Pablo Wallet -Página principal-");
         }
         else{
             UtilFile.showAlert("ERROR!", "Las credenciales son incorrectas");
-            UtilFile.guardarRegistroLog("Se intentó iniciar sesión ", 3, "inicioSesionFallido", "src\\main\\resources\\co\\pablopez\\td\\LOG\\logFile.txt");
+            UtilFile.guardarRegistroLog("Se intentó iniciar sesión ", 3, "inicioSesionFallido", "virtual_wallet\\src\\main\\resources\\co\\pablopez\\td\\LOG\\logFIle.txt");
 
         }
     }

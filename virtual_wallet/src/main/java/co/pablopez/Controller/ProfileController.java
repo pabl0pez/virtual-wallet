@@ -69,7 +69,7 @@ public class ProfileController {
             if(newPassword.equals(passwordConfirmed)){
                 currentUser.setPassword(newPassword);
                 userManager.actualizarContraseniaUsuario(currentUser, newPassword);
-                UtilFile.guardarRegistroLog("El usuario " + currentUser.idUser + " cambió su contraseña", 3, "cambioContraseña", "src\\main\\resources\\co\\pablopez\\td\\LOG\\logFile.txt");
+                UtilFile.guardarRegistroLog("El usuario " + currentUser.idUser + " cambió su contraseña", 3, "cambioContraseña", "virtual_wallet\\src\\main\\resources\\co\\pablopez\\td\\LOG\\logFIle.txt");
                 UtilFile.showAlert("ÉXITO!", "Las contraseña se cambió correctamente");
                 App.setRoot("userView", "Pablo Wallet -Página principal-");
             }

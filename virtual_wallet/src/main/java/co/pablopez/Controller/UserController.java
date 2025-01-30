@@ -89,7 +89,7 @@ public class UserController {
     @FXML
     void btn_logOut(MouseEvent event) throws IOException {
         pabloWallet.currentUser.clear();
-        UtilFile.guardarRegistroLog("El usuario " + currentUser.getIdUser() + " cerró sesión", 1, "cerrarSesionUsuario", "src\\main\\resources\\co\\pablopez\\td\\LOG\\logFile.txt");
+        UtilFile.guardarRegistroLog("El usuario " + currentUser.getIdUser() + " cerró sesión", 1, "cerrarSesionUsuario", "virtual_wallet\\src\\main\\resources\\co\\pablopez\\td\\LOG\\logFIle.txt");
         App.setRoot("loginView", "Pablo Wallet -Inicia sesión-");
     }
 
@@ -109,7 +109,7 @@ public class UserController {
         txt_balance.setVisible(balanceVisibility);
 
         if(txt_balance.isVisible()){
-            UtilFile.guardarRegistroLog("El usuario " + currentUser.getIdUser() + " consultó su saldo", 1, "consultaSaldo", "src\\main\\resources\\co\\pablopez\\td\\LOG\\logFile.txt");
+            UtilFile.guardarRegistroLog("El usuario " + currentUser.getIdUser() + " consultó su saldo", 1, "consultaSaldo", "virtual_wallet\\src\\main\\resources\\co\\pablopez\\td\\LOG\\logFIle.txt");
         }
     }
 

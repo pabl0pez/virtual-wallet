@@ -22,7 +22,7 @@ public class TransactionManager {
     public static String getPropertiesPath(String path){
         Properties properties= new Properties();
 		try {
-			properties.load(new FileInputStream(new File("src/main/resources/co/pablopez/td/properties.properties")));
+			properties.load(new FileInputStream(new File("virtual_wallet\\src\\main\\resources\\co\\pablopez\\td\\properties.properties")));
             return properties.get(path).toString();
 		} 
         catch (FileNotFoundException e) {
